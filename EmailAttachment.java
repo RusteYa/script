@@ -1,16 +1,4 @@
 package download_attachment_mail;
- 
-import javax.mail.search.FlagTerm;
-import java.io.File;
-import java.nio.file.AccessDeniedException;
-import java.util.Properties;
-import javax.mail.Flags;
-import javax.mail.Folder;
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.Multipart;
-import javax.mail.NoSuchProviderException;
-package download_attachment_mail;
 
 import javax.mail.search.FlagTerm;
 import java.io.File;
