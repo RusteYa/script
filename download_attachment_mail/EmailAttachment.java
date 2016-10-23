@@ -1,5 +1,3 @@
-package download_attachment_mail;
-
 import javax.mail.search.FlagTerm;
 import java.io.File;
 import java.io.UnsupportedEncodingException;
@@ -134,9 +132,9 @@ public class EmailAttachment {
         String subject = "Subject";
         String content = "Test";
         String smtpHost="smtp.gmail.com";
-        String addressFrom="jarustem@gmail.com";             String addressTo="jamrustem@mail.ru";
-        String login="jarustem@gmail.com";
-        String password2="318hac17";
+        String addressFrom="user@gmail.com";             String addressTo="user@mail.ru";
+        String login="user@gmail.com";
+        String password2="password";
         String smtpPort="587";
 
         checkConnect(host, mailStoreType, username, password1);
